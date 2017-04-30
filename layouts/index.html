@@ -1,0 +1,38 @@
+{{ partial "header.html" . }}
+
+
+<!-- Main Section Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<main id="index" role="main">
+  <div class="article-header light-gray"><h2>最新文章</h2></div>
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+  {{ range $paginator.Pages }}
+  <div class="summary">
+    <h2><a href="{{ .Permalink }}">{{ .Title }} {{ if .Draft }}:: DRAFT{{end}}</a></h2>
+    <div class="meta">
+      {{ .Date.Format "Jan 2, 2006 " }} &nbsp;
+      {{ range .Params.tags }}
+        #<a href="/tags/{{ . | urlize }}">{{ . }}</a>&nbsp;
+        {{ end }}
+    </div>
+      {{ .Summary }} &nbsp;
+      {{ if .Truncated }}
+        <div class="read-more-link">
+        <a href="{{ .RelPermalink }}">Read More…</a>
+        </div>
+      {{ end }}
+
+  </div>
+  {{ end }}
+</main>
+
+
+<!-- Paginator Section Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<nav>
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+  {{ template "_internal/pagination.html" . }}
+</nav>
+
+
+{{ partial "footer.html" . }}
