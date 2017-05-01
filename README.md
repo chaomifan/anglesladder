@@ -139,8 +139,13 @@ Open sourced under the [MIT license](https://github.com/tanksuzuki/angels-ladder
 
 ## Author
 
-原作者：Asuka Suzuki
-修改：Ethan 
+* 原作者：Asuka Suzuki
+* 修改：Ethan 
+
+## 参考文档
+> gohugo.io/content/summaries/
+> www.gohugo.org/theme/angles-ladder/
+
 ## Contact
 
 [点此给我发邮件](mailto:xielm@qq.com)   :）
