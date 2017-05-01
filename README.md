@@ -26,24 +26,58 @@ Angel's Ladder is a simple blog theme for Hugo.
 
 ## Installation
 
-Clone this repository to your hugo theme directory.
-
+将文件 Clone 到 hugo 的 themes 文件夹
 ```
 cd themes
 git clone https://github.com/chaomifan/anglesladder.git "angels-ladder"
-hugo server -t angels-ladder -D -w
 ```
 
+使用皮肤文件夹中的 config.toml 文件 替换原本的 config 文件 (path/to/yoursite 是你 hugo 生成的网站存放路径)
+````
+mv web_config/config.toml path/to/yoursite/config.toml
+````
+
+预览效果（path/to/yoursite 是你 hugo 生成的网站存放路径）
+````
+cd path/to/yoursite
+hugo server -t angels-ladder -D -w
+````
 
 
+## Configuration （config.toml）
 
-## Configuration
+**贴上我修改过的配置文件**
 
+````
+baseurl = "http://chaomifan.github.io/"
+languageCode = "en-us"
+title = "Ethan's PMbook"
+theme = "angels-ladder"
+disqusShortname = "Ethan's PMbook"
+
+[params]
+	subtitle = "信心是黑暗中的灯塔，任何时候都不能丢"
+	about = "#"
+	weibo = "http://www.baidu.com"
+    wechat = "htttp://www.baidu.com"
+	jianshu = "http://www.jianshu.com/users/f5820a96231b/timeline"
+	github = "http://www.baidu.com"
+	mail = "mailto:xielm@qq.com"
+	guifan = "/categories/产品规范/"
+	fenxi = "/categories/产品分析/"
+	jiqiao = "/categories/技巧分析/"
+	yanjiu = "/categories/技术研究/"
+	profile = "/images/ethan.png"
+	copyright = "Written by Ethan，转载请注明出处，谢谢！"
+````
+
+
+**原版皮肤中关于配置文件的修改说明**
 To take full advantage of the features in this theme, you can add variables to your site config file.
 
 The following is the example configuration.
 
-```
+````
 baseurl = "http://tanksuzuki.com/"
 languageCode = "ja"
 title = "TANKSUZUKI.COM"
@@ -59,7 +93,7 @@ profile = "/images/profile.png"
 copyright = "Written by Asuka Suzuki"
 analytics = "UA-XXXXXXXX-X"
 shareThis = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
-```
+````
 
 Details of each parameter are as follows.
 
@@ -77,7 +111,7 @@ Details of each parameter are as follows.
 | profile | no | Enter the path to the profile image. If you do not enter, profile section will be hidden. |
 | copyright | no | Enter the copyright notice. If you do not enter, copyright display is hidden. |
 | analytics | no | Enter the tracking ID of Google analytics. If you do not enter, the analysis will be skipped. |
-| shareThis | no | Enter the publisher key of ShareThis. If you do not enter, the ShareThis buttons are hidden. |
+| shareThis | no | Enter the publisher key of ShareThis. If you do not enter, the ShareThis buttons are hidden. 
 
 
 ## Style Customization
@@ -89,11 +123,11 @@ and replace the content of `layouts/static/theme.css` with the compiled CSS.
 The default theme color is `#29abe2`.
 Please change the favorite color.
 
-```
+````
 /* Theme color
 --------------------------------------------------*/
 @color: #29abe2;
-```
+````
 
 For original styles, please edit the `layouts/static/custom.css`.
 
@@ -105,11 +139,10 @@ Open sourced under the [MIT license](https://github.com/tanksuzuki/angels-ladder
 
 ## Author
 
-Asuka Suzuki
-
-
+原作者：Asuka Suzuki
+修改：Ethan 
 ## Contact
 
-Please contact me via [email](https://github.com/tanksuzuki) / [Twitter](https://twitter.com/tanksuzuki) :smile:
+[点此给我发邮件](mailto:xielm@qq.com)   :）
 
 
