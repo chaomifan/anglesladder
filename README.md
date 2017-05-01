@@ -21,7 +21,7 @@ Angel's Ladder is a simple blog theme for Hugo.
 
 ## Screenshot
 
-![](https://raw.githubusercontent.com/tanksuzuki/angels-ladder/master/images/readme.png?token=ALXg6utVKJxUhSjlO_-voAEgA75oYTseks5VXtd1wA%3D%3D)  
+![](https://github.com/chaomifan/anglesladder/blob/master/screenshot/1.png?raw=true)  
 
 
 ## Installation
@@ -30,9 +30,11 @@ Clone this repository to your hugo theme directory.
 
 ```
 cd themes
-git clone https://github.com/tanksuzuki/angels-ladder
+git clone https://github.com/chaomifan/anglesladder.git "angels-ladder"
 hugo server -t angels-ladder -D -w
 ```
+
+
 
 
 ## Configuration
