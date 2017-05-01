@@ -1,9 +1,8 @@
-# Angel's Ladder
+# Angel's Ladder 个性化配置
 
 ## Overview
 
 Angel's Ladder is a simple blog theme for Hugo.
-
 * Simple and clean design
 * Responsive design
 * Pagination
@@ -12,9 +11,15 @@ Angel's Ladder is a simple blog theme for Hugo.
 * Source code highlighting
 * Google Analytics
 
-## Screenshot
+个性化部分：
+* 修改标题栏中 社交账户的配置参数，增加 微博，微信，简书，邮件，去除不常用的 Twitter、Facebook等国外社交账户
+* 在页尾增加文字分类链接
+* 增加首页文章简介（summary）
+* 增加列表页文字简介（summary）
 
-All of the display [here](https://github.com/tanksuzuki/angels-ladder/tree/master/images/tn_full.png).
+
+
+## Screenshot
 
 ![](https://raw.githubusercontent.com/tanksuzuki/angels-ladder/master/images/readme.png?token=ALXg6utVKJxUhSjlO_-voAEgA75oYTseks5VXtd1wA%3D%3D)  
 
@@ -104,3 +109,5 @@ Asuka Suzuki
 ## Contact
 
 Please contact me via [email](https://github.com/tanksuzuki) / [Twitter](https://twitter.com/tanksuzuki) :smile:
+
+
