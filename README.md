@@ -143,8 +143,8 @@ Open sourced under the [MIT license](https://github.com/tanksuzuki/angels-ladder
 * 修改：Ethan 
 
 ## 参考文档
-> gohugo.io/content/summaries/
-> www.gohugo.org/theme/angles-ladder/
+1. gohugo.io/content/summaries/
+2. www.gohugo.org/theme/angles-ladder/
 
 ## Contact
 
