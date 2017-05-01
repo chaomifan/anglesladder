@@ -16,5 +16,6 @@ disqusShortname = "Ethan's PMbook"
 	fenxi = "/categories/产品分析/"
 	jiqiao = "/categories/技巧分析/"
 	yanjiu = "/categories/技术研究/"
+	demo = “/categories/产品原型/”
 	profile = "/images/ethan.png"
 	copyright = "Written by Ethan，转载请注明出处，谢谢！"

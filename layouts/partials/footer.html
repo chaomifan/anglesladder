@@ -11,6 +11,7 @@
     </div>
     <div style="text-align: center;" id="social">
           {{ with .Site.Params.about }}<li><a href="{{ . }}" target="_blank">关于Ethan</a></li>{{ end }}
+          {{ with .Site.Params.demo }}<li><a href="{{ . }}" target="_blank">产品原型</a></li>{{ end }}
           {{ with .Site.Params.guifan }}<li><a href="{{ . }}" target="_blank">产品规范</a></li>{{ end }}
           {{ with .Site.Params.fenxi }}<li><a href="{{ . }}" target="_blank">产品分析</a></li>{{ end }}
           {{ with .Site.Params.jiqiao }}<li><a href="{{ . }}" target="_blank">技巧分析</a></li>{{ end }}
